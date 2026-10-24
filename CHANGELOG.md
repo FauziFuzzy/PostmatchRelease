@@ -4,6 +4,13 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.3 - 2026-10-25
+
+- **Remove your POV from a scrim.** Once your POV is in, your seat in Team review shows a
+  small x. Press it, say yes, and your video comes out of the scrim (and off Postmatch's
+  storage) for the whole team, so you can add a different recording. The notes stay, and
+  your recording stays on your PC.
+
 ## 1.3.2 - 2026-10-24
 
 - **Sharper POVs in Team review.** The copy Postmatch uploads for your team is now 1080p
