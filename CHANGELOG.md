@@ -4,6 +4,16 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.4 - 2026-10-25
+
+- **See how long a Team review upload has left.** The line under the scrim now ends with the
+  time left: "copy ready in 9 min" while Postmatch makes the copy, then "2 min left" while it
+  uploads.
+- **Uploads no longer vanish when you switch pages.** Going to another page and back to Team
+  review used to hide an upload in progress (it kept going, but you couldn't see or cancel
+  it, and sharing again said a copy was being made already). Now its progress and Cancel are
+  still there, and "Shared" or "Not shared" shows on whatever page you're on.
+
 ## 1.3.3 - 2026-10-25
 
 - **Remove your POV from a scrim.** Once your POV is in, your seat in Team review shows a
