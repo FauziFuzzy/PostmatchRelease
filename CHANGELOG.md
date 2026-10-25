@@ -4,6 +4,19 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.5 - 2026-10-26
+
+- **A smoother dashboard.** It no longer redraws the whole window every second while nothing
+  is happening: only what changed is drawn again, like a recording timer, a new log line or a
+  new clip. Sitting on Matches it now draws almost nothing.
+- **Pages keep what they showed.** Coming back to the Feed or Team review shows your posts,
+  squads and scrims straight away while they refresh, instead of loading from scratch. Signing
+  out clears them.
+- **Settings stay in step.** A change made elsewhere (another window, or Postmatch itself)
+  shows in Settings while it's open.
+- **A new network engine** for Team review and share-link uploads, the Discord server list and
+  update checks.
+
 ## 1.3.4 - 2026-10-25
 
 - **See how long a Team review upload has left.** The line under the scrim now ends with the
