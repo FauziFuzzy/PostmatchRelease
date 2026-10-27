@@ -4,6 +4,17 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.6 - 2026-10-27
+
+- **A match could get stuck on "Getting it ready".** If you started a new match while the last
+  one was still being got ready, the two could trip over the same file and the newer match was
+  never finished. Each match is now only ever handled by its own session. Anything stuck from
+  before is finished the next time Postmatch starts.
+- **See how long getting a match ready has left.** Every slow step now shows how far it has
+  got and the time left: "Joining pieces 60% · 12 min left" (when the game's window changed
+  size mid-match), "Finishing 40%", and "Compressing 25% · 7 min left". Joining used to show
+  no progress at all.
+
 ## 1.3.5 - 2026-10-26
 
 - **A smoother dashboard.** It no longer redraws the whole window every second while nothing
