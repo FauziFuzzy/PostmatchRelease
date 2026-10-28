@@ -4,6 +4,13 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.7 - 2026-10-29
+
+- **Anonymous usage stats.** Postmatch now counts how often it's opened and which features get
+  used (clips, trims, share links, posts, Team review), with a random id for your PC. It never
+  sends your account, names, files or recordings. This shows what to improve next. Turn it off in
+  Settings > About; the [privacy policy](https://postmatch.tv/privacy.html) lists what's sent.
+
 ## 1.3.6 - 2026-10-27
 
 - **A match could get stuck on "Getting it ready".** If you started a new match while the last
