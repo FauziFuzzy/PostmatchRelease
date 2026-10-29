@@ -4,6 +4,14 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.8 - 2026-10-30
+
+- **Alt-tabbing no longer cuts your recording into pieces.** In some games (Call of Duty, for
+  one), alt-tabbing out made Postmatch think the game had changed size, so it started a new
+  piece each time: one evening's session became six pieces that then took a long time to join
+  back together. Sometimes it stopped recording altogether. Now only a real change of
+  resolution starts a new piece.
+
 ## 1.3.7 - 2026-10-29
 
 - **Anonymous usage stats.** Postmatch now counts how often it's opened and which features get
