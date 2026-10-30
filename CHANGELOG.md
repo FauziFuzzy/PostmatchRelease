@@ -4,6 +4,14 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.10 - 2026-10-30
+
+- **No more recordings frozen on one picture.** When Call of Duty changed resolution at the
+  start of a match, Windows stopped sending Postmatch pictures of the game, and the recording
+  showed the "Deploying" screen for the rest of the session with only the sound going on. Now,
+  if the game is in front and no new picture arrives for 10 seconds, Postmatch captures it
+  afresh at its new size; the parts are joined into one video as usual.
+
 ## 1.3.9 - 2026-10-30
 
 - **No more matches recorded many times over.** If Postmatch's background watcher stopped
