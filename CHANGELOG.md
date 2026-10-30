@@ -4,6 +4,13 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.11 - 2026-10-31
+
+- **Postmatch opens again after you close it.** Sometimes closing the dashboard left it
+  half-closed in the background with no window, and from then on opening Postmatch did
+  nothing but leave it in the tray until you restarted your PC. Closing it now always ends it
+  properly, so it opens every time.
+
 ## 1.3.10 - 2026-10-30
 
 - **No more recordings frozen on one picture.** When Call of Duty changed resolution at the
