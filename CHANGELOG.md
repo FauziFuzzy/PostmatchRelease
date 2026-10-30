@@ -4,6 +4,17 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.9 - 2026-10-30
+
+- **No more matches recorded many times over.** If Postmatch's background watcher stopped
+  unexpectedly mid-game, the copy that restarted a few minutes later began a new recording but
+  left the old one running. In one long Call of Duty session that added up to about 20
+  recordings of the same match at once: hundreds of GB of duplicate pieces, a busy graphics
+  card, and a match stuck on "Getting it ready" for good. A restart now ends the old recording
+  first, so there is only ever one.
+- **The log now says when the watcher stopped unexpectedly**, and when it was last seen
+  running, to help track down why.
+
 ## 1.3.8 - 2026-10-30
 
 - **Alt-tabbing no longer cuts your recording into pieces.** In some games (Call of Duty, for
