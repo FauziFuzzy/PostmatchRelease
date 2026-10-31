@@ -4,6 +4,14 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.12 - 2026-10-31
+
+- **New: stretch 4:3 games to fill the screen.** If you play with a stretched resolution (like
+  Call of Duty at 1440x1080 shown full screen), the game only draws the narrow 4:3 picture and
+  your screen stretches it, so matches came out 4:3 with black bars. Turn on **Settings >
+  Recording > Stretch 4:3 games to fill the screen** and they come out 16:9, as you saw them.
+  The stretch happens while the match is compressed, which takes a little longer. Off by default.
+
 ## 1.3.11 - 2026-10-31
 
 - **Postmatch opens again after you close it.** Sometimes closing the dashboard left it
