@@ -4,6 +4,22 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.13 - 2026-11-02
+
+- **One row per match while it's getting ready.** When a game changed its window size (the
+  launch screen, then full screen), the match was saved in pieces, and each piece showed up as
+  its own "Getting it ready..." row in Matches - with the percentage hidden on the bottom one.
+  Now the match is one row, starting when you started playing, with how long you recorded
+  and its whole size.
+- **See each step as it happens:** "Waiting for the recording to finish saving...", then
+  "Joining 5 pieces 35% · 18 min left", then finishing or compressing. Cancel shows only while
+  compressing, the one step it can stop.
+- **Starts sooner after a match:** the check that a recording is fully saved now takes 10
+  seconds in total, not 10 seconds per piece.
+- **Much lighter on your processor with an NVIDIA card:** joining a match's pieces now
+  happens on the graphics card. Joining a long Call of Duty session went from 6 of 16
+  processor cores busy to under 1, at the same speed.
+
 ## 1.3.12 - 2026-10-31
 
 - **New: stretch 4:3 games to fill the screen.** If you play with a stretched resolution (like
