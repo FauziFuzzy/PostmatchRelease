@@ -4,6 +4,17 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.14 - 2026-11-03
+
+- **Stretched matches are compressed again.** With "Stretch 4:3 games to fill the screen" on, a
+  long Battlefield 6 match came out slightly bigger than recorded, so Postmatch gave up on
+  compressing it and kept the raw recording: 4:3, your mic on a second sound track that
+  players don't play, and choppy when you skip. Stretched matches now compress a notch lower,
+  still near identical to the eye: that match went from 22.6 GB to 16.8 GB, 16:9 and with
+  your voice in it.
+- **If compressing ever fails, the match still plays properly:** it's kept as recorded, but
+  in a normal video file with your mic mixed in, so skipping works and you hear yourself.
+
 ## 1.3.13 - 2026-11-02
 
 - **One row per match while it's getting ready.** When a game changed its window size (the
