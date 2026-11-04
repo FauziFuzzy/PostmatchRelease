@@ -4,6 +4,12 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.15 - 2026-11-04
+
+- **Your voice is in trimmed parts too.** Trimming part of an older match (one whose game sound
+  and mic were still on two separate tracks) gave a clip without your voice, because players
+  only play the first track. Trims now mix your mic in, like everything else Postmatch saves.
+
 ## 1.3.14 - 2026-11-03
 
 - **Stretched matches are compressed again.** With "Stretch 4:3 games to fill the screen" on, a
