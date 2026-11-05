@@ -4,6 +4,14 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.16 - 2026-11-05
+
+- **Your game gets the whole PC.** If a match is still being compressed when you start
+  another game, Postmatch now pauses that work the moment the game opens - no processor or
+  graphics-card time taken from your game - and carries on from where it stopped once you
+  close it. Matches shows "Paused while you play · 42%", and the time left doesn't count the
+  pause.
+
 ## 1.3.15 - 2026-11-04
 
 - **Your voice is in trimmed parts too.** Trimming part of an older match (one whose game sound
