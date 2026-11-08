@@ -4,6 +4,14 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.17 - 2026-11-08
+
+- **A new look when recording starts.** The popup in the top-right corner is now a Postmatch
+  card: the logo and name, "Your match is on tape", and the game you're playing with the time
+  it started (like "Battlefield 6 · 8:01 PM"). If Postmatch can only record the screen
+  instead of the game's own picture, the card says so in amber. It still never takes focus
+  from your game and is never in your recordings; click it to open the game's folder.
+
 ## 1.3.16 - 2026-11-05
 
 - **Your game gets the whole PC.** If a match is still being compressed when you start
@@ -128,13 +136,13 @@ your current version; your settings and recordings are kept.
   it, and sharing again said a copy was being made already). Now its progress and Cancel are
   still there, and "Shared" or "Not shared" shows on whatever page you're on.
 
-## 1.3.3 - 2026-10-25
-
-- **Remove your POV from a scrim.** Once your POV is in, your seat in Team review shows a
-  small x. Press it, say yes, and your video comes out of the scrim (and off Postmatch's
-  storage) for the whole team, so you can add a different recording. The notes stay, and
-  your recording stays on your PC.
-
+## 1.3.3 - 2026-10-25
+
+- **Remove your POV from a scrim.** Once your POV is in, your seat in Team review shows a
+  small x. Press it, say yes, and your video comes out of the scrim (and off Postmatch's
+  storage) for the whole team, so you can add a different recording. The notes stay, and
+  your recording stays on your PC.
+
 ## 1.3.2 - 2026-10-24
 
 - **Sharper POVs in Team review.** The copy Postmatch uploads for your team is now 1080p
