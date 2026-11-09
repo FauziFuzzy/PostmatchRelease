@@ -4,6 +4,13 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.18 - 2026-11-09
+
+- **One look from the moment your game opens.** The "game found" popup, shown while
+  Postmatch waits for your game to be on screen, is now the same Postmatch card as the
+  recording one: a cyan dot with "Game found · ready to record", your game and the time.
+  When recording starts, the dot turns red.
+
 ## 1.3.17 - 2026-11-08
 
 - **A new look when recording starts.** The popup in the top-right corner is now a Postmatch
