@@ -4,6 +4,14 @@ What changed in each version of Postmatch (called LastRound up to 1.0.6). To upd
 Update button in the dashboard, or download the newest `Postmatch-Setup.exe` and run it over
 your current version; your settings and recordings are kept.
 
+## 1.3.19 - 2026-11-17
+
+- **No more matches cut into 5-minute pieces.** If Windows' scheduled task was the one that
+  started Postmatch (for example, it beat the Startup shortcut after you turned your PC on),
+  Windows stopped Postmatch a minute later. It came back 5 minutes later and started a new
+  recording, so one evening of games showed up as many separate 5-minute recordings. Postmatch
+  now keeps running however it was started, and a match is one recording again.
+
 ## 1.3.18 - 2026-11-09
 
 - **One look from the moment your game opens.** The "game found" popup, shown while
